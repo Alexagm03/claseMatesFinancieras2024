@@ -22,10 +22,10 @@ $t$= 7 meses
 Se realizan los cálculos
 ```{r}
 # Creamos objetos con los valores de entrada: 
-ValorActual=1000
+valorActual=1000
 tasaPeriodo=0.02
-nPeriodo=7
-#Calculamos el valor futuro: 
+nPeriodos=7
+# Calculamos el valor futuro: 
 valorFuturo=valorFinalSimple(VA=valorActual,r=tasaPeriodo,t=nPeriodos)
 #Imprimir el resultado:
 valorFuturo
