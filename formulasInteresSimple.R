@@ -9,3 +9,10 @@ valorFinalSimple=function(VA,r,t){
   
   return(xSalida)
 }
+
+#Valor actual con interés simple: 
+valorActual=function(VF,r,t){
+  xSalida=VF/ (1+(r*t))
+
+  return(xSalida)
+}
