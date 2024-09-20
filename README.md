@@ -42,11 +42,11 @@ $t$= 7 meses
 Se realizan los cálculos
 ```{r}
 # Creamos objetos con los valores de entrada: 
-valorFuturo=1140
+valorFinalSimple=1140
 tasaPeriodo=0.02
 nPeriodos=7
 # Calculamos el valor actual: 
-VA=valorActual(VF=valorFuturo,r=tasaPeriodo,t=nPeriodos)
+VA=valorActual(valorFuturo=valorFinalSimple,r=tasaPeriodo,t=nPeriodos)
 #Imprimir el resultado:
-valorActual
+VA
 ```
