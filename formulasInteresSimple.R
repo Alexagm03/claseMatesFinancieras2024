@@ -5,16 +5,16 @@
 #Valor futuro con interés simple: 
 
 valorFinalSimple=function(VA,r,t){
-  xSalida=VA*(1+(r*t))
+  VF=VA*(1+(r*t))
   
-  return(xSalida)
+  return(VF)
 }
 
 #Valor actual con interés simple: 
 valorActual=function(VF,r,t){
-  xSalida=VF/ (1+(r*t))
+  VA=VF/ (1+(r*t))
 
-  return(xSalida)
+  return(VA)
 }
 
 #Interés simple del periodo pagado:
