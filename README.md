@@ -50,3 +50,24 @@ VA=valorActual(VF=valorFinalSimple,r=tasaPeriodo,t=nPeriodos)
 #Imprimir el resultado:
 VA
 ```
+
+## Cálculo del Interés Simple 
+
+Para ilustrar el ejemplo. se tiene el siguiente ejercicio: 
+
+$VF$=$1,140.000
+$VA$ = $1,000.00
+$i$= 24.00% anualizado
+$t$= 7 meses 
+
+Se realizan los cálculos
+```{r}
+# Creamos objetos con los valores de entrada: 
+valorFinalSimple=1140
+valorActual=1000
+nPeriodos=7
+# Calculamos el interés simple: 
+r=tasaPeriodo(VF=valorFinalSimple,VA=valorActual,t=nPeriodos)
+#Imprimir el resultado:
+r
+```
