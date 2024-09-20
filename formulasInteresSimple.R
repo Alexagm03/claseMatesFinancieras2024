@@ -26,7 +26,7 @@ tasaPeriodo=function(VA,VF,t){
 
 #Tiempo necesario con interés simple: 
 nPeriodos=function(VA,VF,r){
-  xSalida=(VF(VA-1))/r
+  xSalida=(VF/(VA-1))/r
   
   return(xSalida)
 }
