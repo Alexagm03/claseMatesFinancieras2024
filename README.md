@@ -48,5 +48,5 @@ nPeriodos=7
 # Calculamos el valor actual: 
 valorActual=valorActual(VF=valorFinalSimple,r=tasaPeriodo,t=nPeriodos)
 #Imprimir el resultado:
-ValorActual
+valorActual
 ```
