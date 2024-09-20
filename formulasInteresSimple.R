@@ -16,3 +16,10 @@ valorActual=function(VF,r,t){
 
   return(xSalida)
 }
+
+#Interés simple del periodo pagado:
+tasaPeriodo=function(VA,VF,t){
+  xSalida=(VF/(VA-1))/t
+  
+  return(xSalida)
+}
